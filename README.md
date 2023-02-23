@@ -1,1 +1,3 @@
-# spring-boot-react-typescript-full-stack-app-demo
+# SPRING_BOOT_REACT_TYPESCRIPT_FULL_STACK_APP_DEMO
+
+SpringBoot - React_Typescript Full Stack Application Demo
