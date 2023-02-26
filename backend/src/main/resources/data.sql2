@@ -1,0 +1,6 @@
+insert into authorEntity values(0, 'name0', 'surname0');
+insert into authorEntity values(1, 'name1', 'surname1');
+insert into authorEntity values(2, 'name2', 'surname2');
+insert into bookEntity values(0, 'book0', 'description0');
+insert into bookEntity values(1, 'book1', 'description1');
+insert into bookEntity values(2, 'book2', 'description2');
