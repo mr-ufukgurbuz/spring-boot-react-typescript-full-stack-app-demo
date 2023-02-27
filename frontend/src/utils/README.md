@@ -1,0 +1,1 @@
+Bu dizin altinda proje icin faydali islemler amaciyla kullanilacak dosyalar yer alacaktir.

@@ -1,0 +1,7 @@
+@import '~antd/dist/antd.css';
+
+.authors-content-panel-background {
+    background: rgb(189, 186, 186);
+    margin: 50px 0px 0px 0px;
+    padding: 20px 10px 10px 10px;
+}

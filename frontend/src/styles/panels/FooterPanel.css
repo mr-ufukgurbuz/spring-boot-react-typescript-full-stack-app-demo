@@ -1,0 +1,17 @@
+@import '~antd/dist/antd.css';
+
+.footer-panel-background {
+    background: rgb(189, 186, 186);
+    padding: 10px;
+}
+
+.footer-panel {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 10px;
+    width: '100%';
+    border-top: '1px solid #e8e8e8';
+    position: 'fixed';
+}

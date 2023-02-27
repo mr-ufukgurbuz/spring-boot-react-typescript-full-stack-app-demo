@@ -1,0 +1,1 @@
+Bu dizin altinda kullanilacak icon dosyalari yer alacaktir.
