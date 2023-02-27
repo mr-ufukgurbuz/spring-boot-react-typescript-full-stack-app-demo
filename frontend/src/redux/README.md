@@ -1,0 +1,1 @@
+Bu dizin altinda redux 'a ait state yonetimi amaciyla kullanilacak dosyalar yer alacaktir.

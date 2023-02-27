@@ -1,0 +1,22 @@
+@import '~antd/dist/antd.css';
+
+#company-logo {
+    width: 140px;
+    height: 45px;
+    margin: 10px 0px 16px 20px;
+    padding: 0px 0px 0px 0px;
+    background: rgb(255, 255, 255);
+}
+
+#left-menu{
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+#version {
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
