@@ -27,7 +27,7 @@ const menu = (
       Logout
     </Menu.Item>
   </Menu>
-);
+); 
 
 class HeaderPanel extends Component
 {
