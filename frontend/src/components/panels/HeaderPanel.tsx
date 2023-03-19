@@ -7,27 +7,27 @@ import { Header } from 'antd/lib/layout/layout';
 
 // Logout event
 function handleUserMenuClick(e: any) {
-    message.info('Click on user menu item.');
-    console.log('click', e);
-  }
-  
-  // User event
-  function handleUserClick(e: any) {
-    message.info('Click on user item.');
-    console.log('click', e);
-  }
-  
-  // Logout menu
-  const menu = (
-    <Menu onClick={handleUserMenuClick}>
-      <Menu.Item key="account" icon={<IdcardOutlined />}>
-        Account
-      </Menu.Item>
-      <Menu.Item key="logout" icon={<LogoutOutlined />}>
-        Logout
-      </Menu.Item>
-    </Menu>
-  );
+  message.info('Click on user menu item.');
+  console.log('click', e);
+}
+
+// User event
+function handleUserClick(e: any) {
+  message.info('Click on user item.');
+  console.log('click', e);
+}
+
+// Logout menu
+const menu = (
+  <Menu onClick={handleUserMenuClick}>
+    <Menu.Item key="account" icon={<IdcardOutlined />}>
+      Account
+    </Menu.Item>
+    <Menu.Item key="logout" icon={<LogoutOutlined />}>
+      Logout
+    </Menu.Item>
+  </Menu>
+);
 
 class HeaderPanel extends Component
 {
