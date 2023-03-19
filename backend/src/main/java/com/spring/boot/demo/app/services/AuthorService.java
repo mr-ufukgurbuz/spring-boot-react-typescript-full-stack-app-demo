@@ -4,7 +4,8 @@ import com.spring.boot.demo.app.adapters.AuthorAdapter;
 import com.spring.boot.demo.app.entities.AuthorEntity;
 import com.spring.boot.demo.app.models.requests.AuthorRequest;
 import com.spring.boot.demo.app.models.responses.AuthorResponse;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -15,7 +16,7 @@ import java.util.List;
 public class AuthorService
 {
     //Initialize Log4j instance
-    private static final Logger Log = Logger.getLogger(AuthorService.class.getName());
+    private static final Logger Log = LogManager.getLogger(AuthorService.class.getName());
 
     private static List<AuthorEntity> authorEntities = new ArrayList<>();
 

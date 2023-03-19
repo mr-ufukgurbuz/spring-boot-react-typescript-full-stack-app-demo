@@ -5,7 +5,8 @@ import com.spring.boot.demo.app.entities.CityEntity;
 import com.spring.boot.demo.app.models.requests.CityRequest;
 import com.spring.boot.demo.app.models.responses.CityResponse;
 import com.spring.boot.demo.app.repositories.CityRepository;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -17,7 +18,7 @@ import java.util.Optional;
 public class CityJPAService
 {
     //Initialize Log4j instance
-    private static final Logger Log = Logger.getLogger(CityJPAService.class.getName());
+    private static final Logger Log = LogManager.getLogger(CityJPAService.class.getName());
 
     @Autowired
     private CityRepository cityRepository;
