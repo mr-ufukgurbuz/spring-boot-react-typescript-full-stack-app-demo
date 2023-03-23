@@ -40,7 +40,7 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Test with Maven
-        run: mvn compile test -f backend
+        run: mvn test -f backend
 
       # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
       - name: Update dependency graph
@@ -51,10 +51,6 @@ jobs:
     needs: test
     steps:
       - uses: codecov/codecov-action@v3
-      - name: Set up JDK 17
-        uses: codecov/codecov-action@v3
-        with:
-          java-version: '17'
-          distribution: 'temurin'
-          cache: maven
       - name: Upload coverage reports to Codecov
+
+
