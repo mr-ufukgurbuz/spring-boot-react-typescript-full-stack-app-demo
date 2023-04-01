@@ -49,9 +49,8 @@ First of all you need to configure the database. Properties are located in `./ba
 
 1. Run `npm clean install --prefix frontend` to install front-end dependencies.
 2. Run `npm run build:prod --prefix frontend` to build React/Typescript application.
-3. Run `./init_db` to create database, dbuser and dump default schema.
-4. Run `mvn clean compile -f backend` to compile a spring boot application.
-5. Run `mvn install -f backend` to start spring boot application on embedded server.
+3. Run `mvn clean compile -f backend` to compile a spring boot application.
+4. Run `mvn install -f backend` to start spring boot application on embedded server.
 
 > By default `backend server` will be running on port `8080`.
 
