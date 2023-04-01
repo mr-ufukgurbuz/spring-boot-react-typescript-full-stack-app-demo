@@ -34,8 +34,7 @@ Back-end:
 
 ## Setup
 
-You can use `setup.sh` script to change name and version of the app and database connection properties.
-Just run `sh setup.sh` and follow the instructions.
+You should install above technologies and tools to your computer. You can search these instructions in Google.
 
 ## Build and Run
 
